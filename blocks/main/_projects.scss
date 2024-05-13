@@ -1,0 +1,19 @@
+.projects__h2{
+    @include sett(48px, 400, Helvetica);
+    line-height: 66px;
+    letter-spacing: 0px;
+    text-align: left;
+    @media (max-width: 1024px) {
+        font-size: 59px;
+    }
+}
+
+.projects__pic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects__img{
+    margin-bottom: 20px;
+}

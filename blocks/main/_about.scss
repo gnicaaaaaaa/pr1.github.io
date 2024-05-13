@@ -1,0 +1,50 @@
+.about{
+    display: flex;
+    margin-top: 100px;
+}
+
+.about__h2{
+    margin: 0;
+    @include sett(48px, 400, Helvetica);
+    line-height: 66px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 562px;
+    height: 198px;
+    margin-right: 135px;
+    @media (max-width: 1024px) {
+        font-size: 59px;
+        width: 575px;
+        margin-right: 125px;
+    }
+}
+
+.about__right{
+    display: inline-block;
+    flex-direction: column;
+    width: 400px;
+    @media (max-width: 1024px) {
+        width: 500px;
+    }
+}
+
+.about__p{
+    @include sett(16px, 400, Roboto);
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    @media (max-width: 1024px) {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+.about__h4{
+    @include sett(36px, 400, Helvetica);
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+    @media (max-width: 1024px) {
+        font-size: 43px;
+    }
+}

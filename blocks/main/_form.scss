@@ -1,0 +1,59 @@
+.form{
+    display: flex;
+    margin-top: 100px;
+}
+
+.form__right{
+    margin-left: 135px;
+}
+
+.form__h2{
+    @include sett(48px, 400, Helvetica);
+    line-height: 66px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-block-end: 0;
+    @media (max-width: 1024px) {
+        font-size: 57px;
+    }
+}
+
+.form__p{
+    @include sett(16px, 400, Roboto);
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 50px;
+    @media (max-width: 1024px) {
+        font-size: 20px;
+    }
+}
+
+.quaestionnaire__input, .quaestionnaire__input:active{
+    border: none;
+    border-bottom: #212529 1px solid;
+    width: 500px;
+    font-size: 18px;
+    line-height: 50px;
+    @media (max-width: 1024px) {
+        font-size: 23px;
+    }
+}
+
+.quaestionnaire__button{
+    background-color: #212529;
+    color: white;
+    padding: 2%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding-right: 5%;
+    padding-left: 5%;
+    @media (max-width: 1024px) {
+        font-size: 20px;
+    }
+}
+
+.form__img{
+    margin-top: 50px;
+}
